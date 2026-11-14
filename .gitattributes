@@ -1,0 +1,3 @@
+# Scientific evidence and protected pilot are checked byte-for-byte.
+# Preserve exact bytes on every operating system, including Windows.
+* -text

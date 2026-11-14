@@ -1,0 +1,26 @@
+{
+  "revision": "D01",
+  "scope": "historical book regression after authorized reference annotation correction",
+  "author_decision": "D01-A approved by author 2026-11-12",
+  "supersedes_protocol": "ch10-v0.1",
+  "historical_commitment_sha256": "230c1765ca89235c4ca53c13f30d973e6d5931d047328eea0ae086f17e3cfc71",
+  "historical_snapshot": "review/history/I01_U03_before_D01.zip",
+  "source_package_sha256": "12f229d8b8a2213a08d57eee10eb93e05fbcf759a5974101b8010d511b65f41b",
+  "files_sha256": {
+    "config/ch10_protocol.json": "3fbbdd91a850f32ef2dcdec24bd4932e564d3d6fb117f16bf4b6e505a1e4a96a",
+    "data/ch10_test_manifest.csv": "cb101f12c07236b76e7bc87c54a48ee60a1fdc3f41de0ad47902e308cd0a8980",
+    "src/bspsbook/ch10.py": "bbb229da135967ae7d5cf45a405b17c9511b351b31c5ed43ac2a8f7da6ed8f5f",
+    "scripts/run_ch10.py": "6204bf952af665f3a115cb75124e291968400ee8742c70ff735d1ede40f2f476"
+  },
+  "notebook_code_sha256": "3ece94f91464a8d8dc56ea3c3725c77a8f6339990469dc5bf34a11e43babe8ce",
+  "development_results_sha256_before_test": {
+    "ch10_sensitivity.csv": "81ec7ca23080ebfd30933e25c172bc9a766dd5f5f4e2277992bda55526b0de8a",
+    "ch10_stress.csv": "5f08e1d9b7721d8d7f98d31a3c9ceba1dfb24c84d076b8154544df3ecdae753d",
+    "ch10_quality_curve.csv": "1b90579473f46c5ca63bfa7ed87c15837d0f2956a76395598de93b77f8b5747b"
+  },
+  "test_opened_when_frozen": true,
+  "test_record_previously_known": true,
+  "current_revision_test_evaluated_before_commitment": false,
+  "frozen_at_utc": "2026-11-12T05:47:33.412403+00:00",
+  "note": "Only development part executed for D01 before this commitment; record 200 was already inspected and evaluated in previous revisions. No new independent validation is claimed."
+}

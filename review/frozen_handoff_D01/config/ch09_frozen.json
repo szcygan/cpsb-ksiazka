@@ -1,0 +1,84 @@
+{
+  "package_version": "0.2",
+  "notebook_version": "0.2",
+  "random_seed": 20260714,
+  "event_tolerance_ms": 50,
+  "filter": {
+    "type": "butterworth_bandpass_sos",
+    "order": 4,
+    "low_hz": 5.0,
+    "high_hz": 20.0,
+    "zero_phase": true
+  },
+  "shared": {
+    "refractory_ms": 200,
+    "r_refine_ms": 80
+  },
+  "baseline": {
+    "energy_window_ms": 120,
+    "threshold_k_mad": 9.0
+  },
+  "matched_filter": {
+    "template_pre_ms": 200,
+    "template_post_ms": 300,
+    "local_background_window_ms": 2000,
+    "threshold_k_mad": 3.0
+  },
+  "quality": {
+    "edge_margin_s": 1.0,
+    "invalid_guard_s": 0.5,
+    "saturation_abs_mV": 5.0,
+    "window_valid_sample_fraction_min": 0.9,
+    "sqi_min": 0.55,
+    "minimum_detected_beats": 2,
+    "sqi_weights": {
+      "peak_prominence": 0.35,
+      "background_stability": 0.2,
+      "rr_plausibility": 0.25,
+      "completeness": 0.2
+    }
+  },
+  "features": {
+    "window_s": 10.0,
+    "step_s": 10.0
+  },
+  "validation": {
+    "threshold_grid_baseline": [
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0
+    ],
+    "threshold_grid_matched": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ]
+  },
+  "locked_test": {
+    "run": false,
+    "required_fragments": [
+      "200_vt",
+      "200_noise",
+      "200_complex"
+    ]
+  },
+  "design": {
+    "source": "CPSB M8 v0.2",
+    "selection_order": [
+      "highest_micro_f1",
+      "lowest_pooled_timing_mae_ms",
+      "lowest_k"
+    ],
+    "selection_data": [
+      "105_normal",
+      "105_artifact"
+    ],
+    "sqi_strict_diagnostic": 0.85,
+    "gap_duration_s": 3.0
+  }
+}

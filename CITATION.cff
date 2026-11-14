@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cytując ten pakiet, podaj jego wersję; dane MIT-BIH cytuj również według THIRD_PARTY_NOTICES.md."
+type: software
+title: "Cyfrowe przetwarzanie sygnałów biomedycznych. Od pomiaru do wiarygodnego wyniku — notebooki i kod"
+authors:
+  - family-names: Cygan
+    given-names: Szymon
+    affiliation: Politechnika Warszawska
+version: "G01-I01-D01-B05-03"
+date-released: "2026-11-14"
+license: MIT
+abstract: "Wykonywalny dodatek do roboczego manuskryptu. Pole license dotyczy oprogramowania; tekst i własne figury CC BY 4.0, dane i składniki osób trzecich według odrębnych not."
+repository-code: "https://github.com/szcygan/cpsb-ksiazka"

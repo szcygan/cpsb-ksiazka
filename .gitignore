@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+figures/
+results/
+review/jupyter/
+review/logs/
+review/handoff_D01/
+review/jupyter_protocol.json
+review/handoff_preparation_D01.json
+data/ch0[4-8]_*
+chapter_notes/ch0[4-8]_environment.json

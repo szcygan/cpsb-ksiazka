@@ -1,0 +1,11 @@
+# Wspólne środowisko kontrolne książki: Python 3.12.14.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+statsmodels==0.14.6
+EMD-signal==1.10.0
+PyWavelets==1.8.0
+nbformat==5.10.4
+# Opcjonalne wykonanie przez protokół Jupyter, do weryfikacji w docelowym CI.
+nbclient==0.10.2
+ipykernel==6.30.1

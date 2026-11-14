@@ -1,0 +1,152 @@
+{
+  "reader": "wfdb 4.3.0",
+  "book_files_modified": false,
+  "reference": "https://physionet.org/content/mitdb/1.0.0/",
+  "raw_files_sha256": {
+    "100.atr": "8d8a5349fb16638ebbf649f1779d12e96d91b736b2aafe59db43719ae583d471",
+    "100.dat": "b2ea3c250e56e48f4b7b90697832b8ecd1afa1e0bb31f2dcfea4ed6e1075a639",
+    "100.hea": "60ebc904c7bf3e04d142638d3fd5c903e8dc9f10f1ea3264e07926aa089ee75e",
+    "103.atr": "392ce37fbc7e89b3f14998e197a844f23cce6a3db6edaa71b4b49bf3ca5b6596",
+    "103.dat": "f7994f0bd196730779998b4bddf26cb47f396599fb370a08b5cb29a3ac4d555d",
+    "103.hea": "3da9706fc27cc5d627a31b04b74b908ac0b6e061843a87cbd57801e5ea0fed7b",
+    "105.atr": "278d534c1ad952a6d41db963b6b2b00be070d8dd5fa66545caa5c18edcc36497",
+    "105.dat": "fcd0153dfea69c749194bb73de7db124588857cfa2f6aecb72754894c8afde02",
+    "105.hea": "9a024eebf8e9baf630308815e689d7e3eab471ab0069db6aded127c396418d48",
+    "200.atr": "f9624a11696760427d75314a78c31f89ca3c446af855890c8f8b66cddd8b3a3f",
+    "200.dat": "a9e203b3807b9fcd3647cde03444437cb8eec7f5128a8eb413edafb394272e0f",
+    "200.hea": "9e0c2ff5b790cf624deab0ccb8a9f211a9e29a748d8197da3c1ee7c5b596b40c"
+  },
+  "fragments": [
+    {
+      "file": "data/100_normal.npz",
+      "record": "100",
+      "signal_samples": 32400,
+      "annotation_count": 117,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 117
+      },
+      "sha256": "334a98d66e1e1f7f5177628037d39f6166e0b5009032a97d2e65a6aabe567028"
+    },
+    {
+      "file": "data/test_locked/200_complex.npz",
+      "record": "200",
+      "signal_samples": 32400,
+      "annotation_count": 121,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 121
+      },
+      "sha256": "8565fa6919165f3f30cdd37c661d7807710450165407496e9efd8d01e5b4656b"
+    },
+    {
+      "file": "data/test_locked/200_noise.npz",
+      "record": "200",
+      "signal_samples": 32400,
+      "annotation_count": 130,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 130
+      },
+      "sha256": "6a48030c8b1fbce0fa532bb1edd2f7e1e5161dc05606e4a3cc074c0d495891a1"
+    },
+    {
+      "file": "data/test_locked/200_vt.npz",
+      "record": "200",
+      "signal_samples": 37800,
+      "annotation_count": 145,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 145
+      },
+      "sha256": "74a862e3df6e64b88407e700f02d969669761a2b5ebc2e5c5e6d50da98b4e163"
+    },
+    {
+      "file": "data/train/100_ectopy.npz",
+      "record": "100",
+      "signal_samples": 37800,
+      "annotation_count": 129,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 129
+      },
+      "sha256": "a1c4b303dbaf94ce2148a6f660a45d3767ef6dcf7e44224571d1cf1e4f57d58d"
+    },
+    {
+      "file": "data/train/100_normal.npz",
+      "record": "100",
+      "signal_samples": 32400,
+      "annotation_count": 117,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 117
+      },
+      "sha256": "334a98d66e1e1f7f5177628037d39f6166e0b5009032a97d2e65a6aabe567028"
+    },
+    {
+      "file": "data/train/103_apc.npz",
+      "record": "103",
+      "signal_samples": 27000,
+      "annotation_count": 87,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 87
+      },
+      "sha256": "568caf79d195d4a3cdae9541f6c58a1878b8efba599b4c78f3d514474801d539"
+    },
+    {
+      "file": "data/train/103_normal.npz",
+      "record": "103",
+      "signal_samples": 32400,
+      "annotation_count": 106,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 106
+      },
+      "sha256": "1015aafef526150554e648f5e4266cf6c8a89e5ac59f59c0a496d6d56ab67fec"
+    },
+    {
+      "file": "data/validation/105_artifact.npz",
+      "record": "105",
+      "signal_samples": 32400,
+      "annotation_count": 130,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 130
+      },
+      "sha256": "54154e538eb19bb2e23e90dffab71ae3ebac44fdf1d8e0f32e9226b7ace9a3aa"
+    },
+    {
+      "file": "data/validation/105_normal.npz",
+      "record": "105",
+      "signal_samples": 32400,
+      "annotation_count": 125,
+      "signal_exact": true,
+      "annotation_positions_exact": true,
+      "annotation_symbols_exact": true,
+      "offset_histogram": {
+        "0": 125
+      },
+      "sha256": "25a339bbf596773ced46fd74d42ba0b15416155f382a6d1eef656b073b5606a3"
+    }
+  ],
+  "all_exact": true
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "MIT-BIH Arrhythmia Database v1.0.0",
+  "doi": "10.13026/C2F305",
+  "package": "M8_pakiet_danych_v0_2.zip",
+  "source_archive_sha256": "12f229d8b8a2213a08d57eee10eb93e05fbcf759a5974101b8010d511b65f41b",
+  "fragment_id": "100_normal",
+  "record_id": "100",
+  "channel": "MLII",
+  "unit": "mV",
+  "fs_hz": 360,
+  "record_start_sample": 226800,
+  "record_stop_sample": 259200,
+  "reference_beats": 117,
+  "files_sha256": {
+    "100_normal.npz": "334a98d66e1e1f7f5177628037d39f6166e0b5009032a97d2e65a6aabe567028",
+    "100_normal_annotations.csv": "e16fc962171e4ff24463a3a317cdd3d33b024adfdb0c0692b6ce4aedaf8be470"
+  },
+  "annotation_revision": "D01-WFDB-1.0.0",
+  "original_annotation_source": "https://physionet.org/files/mitdb/1.0.0/100.atr"
+}

@@ -1,0 +1,59 @@
+{
+  "handoff": {
+    "config_sha256_canonical": "8cfcc9df0d8d07fb9506606737f35bda0d36f55ad78e7b86306ff5b905302952",
+    "state_file_sha256": "bbbc5248a5cf4522c8a29c507da86916813e38ea51c3d5b186c6522dc8f488a5",
+    "manifest_sha256": "47cf744b4a72d1e1cb11ca72369f50b56f5f69a523ce80ad2d4f3b4799e81810",
+    "candidate_file_sha256": "86007b4b84e7e520eaa6e443e69fecb3271ab299d5323bfd4ab693291156435d",
+    "core_sha256": "ca2d633a5b52685c3276837b2811033f1a31c38464126527ead2b41962ec56a6",
+    "orchestration_sha256": "d33fce4ccbe9a62a0471d406d8c8c288b98ee7cfbdca3b2f3d6b9dc7dde74eb2",
+    "fit_records": [
+      "100",
+      "103"
+    ],
+    "selection_records": [
+      "105"
+    ],
+    "reserved_test_record": "200"
+  },
+  "selected": [
+    {
+      "method": "baseline",
+      "k": 9.0,
+      "tp": 248,
+      "fp": 3,
+      "fn": 0,
+      "micro_f1": 0.9939879759519038,
+      "timing_mae_ms": 0.23521505376344085,
+      "selected": true
+    },
+    {
+      "method": "matched_filter",
+      "k": 3.0,
+      "tp": 248,
+      "fp": 0,
+      "fn": 0,
+      "micro_f1": 1.0,
+      "timing_mae_ms": 0.23521505376344085,
+      "selected": true
+    }
+  ],
+  "real_window_availability": {
+    "project/baseline": [
+      18,
+      18
+    ],
+    "project/matched_filter": [
+      18,
+      18
+    ],
+    "strict_diagnostic/baseline": [
+      0,
+      18
+    ],
+    "strict_diagnostic/matched_filter": [
+      15,
+      18
+    ]
+  },
+  "test_executed": false
+}
